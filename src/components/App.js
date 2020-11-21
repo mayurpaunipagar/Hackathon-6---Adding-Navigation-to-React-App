@@ -1,6 +1,8 @@
 import React, {Component, useState} from "react";
 import {BrowserRouter,Link,Route, Switch} from "react-router-dom"
 import '../styles/App.css';
+import About from "./About";
+import Home from "./Home";
 
 class App extends Component {
     render() {
@@ -8,6 +10,7 @@ class App extends Component {
         return(
             
             <div id="main">
+                
                <BrowserRouter>
                 
                     <Link to="/">Home</Link>
